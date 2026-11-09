@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #ffffff;
+}
+
+
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #16865b !important;
+    letter-spacing: 1px;
+}
+
+.drop-logo {
+    font-size: 30px;
+}
+
+
+
+.navbar {
+    padding: 15px 0;
+}
+
+.nav-link {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #16865b !important;
+}
+
+.btn-success {
+    background-color: #16865b;
+    border-color: #16865b;
+}
+
+.btn-success:hover {
+    background-color: #106b48;
+    border-color: #106b48;
+}
+
+
+
+.hero {
+    min-height: 600px;
+
+    display: flex;
+
+    align-items: center;
+
+    background:
+        linear-gradient(rgba(0, 40, 25, 0.65), rgba(0, 40, 25, 0.65)),
+        url("https://images.unsplash.com/photo-1581578732596-0c5f4b7c6f8b?auto=format&fit=crop&w=1800&q=85");
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero h1 span {
+    color: #6be3a5;
+}
+
+.hero p {
+    color: white;
+    font-size: 19px;
+    margin: 25px 0;
+}
+
+
+
+.section-title {
+    color: #12352a;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+
+
+.why-us {
+    background-color: #eaf6ef;
+}
+
+.feature-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+
+.service-card {
+    padding: 30px;
+    background: white;
+    border: 1px solid #e5eee8;
+    border-radius: 15px;
+    text-align: center;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.service-card h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+.page-header {
+    background-color: #eaf6ef;
+    padding: 80px 0;
+}
+
+.page-header h1 {
+    color: #12352a;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.page-header p {
+    margin-top: 15px;
+}
+
+
+
+.about-logo {
+    background: #eaf6ef;
+    padding: 70px 30px;
+    border-radius: 20px;
+}
+
+.about-logo h2 {
+    color: #16865b;
+    font-weight: bold;
+}
+
+
+
+.pricing-section {
+    background-color: #f6faf7;
+}
+
+.price-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 15px;
+    border: 1px solid #dcebe1;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.price-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.price-card h2 {
+    color: #16865b;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.price-card h3 {
+    color: #12352a;
+    font-weight: bold;
+}
+
+.price-card p {
+    margin-bottom: 15px;
+}
+
+.featured-price {
+    border: 2px solid #16865b;
+    transform: scale(1.03);
+}
+
+
+
+.booking-section {
+    background-color: #eaf6ef;
+}
+
+.booking-card {
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.booking-card h2 {
+    color: #12352a;
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #16865b;
+    box-shadow: 0 0 0 0.2rem rgba(22, 134, 91, 0.15);
+}
+
+
+
+.footer {
+    background-color: #12352a;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer h3 {
+    color: #6be3a5;
+    font-weight: bold;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        min-height: 500px;
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .page-header h1 {
+        font-size: 35px;
+    }
+
+    .booking-card {
+        padding: 25px 15px;
+    }
+
+    .featured-price {
+        transform: none;
+    }
+
+}
